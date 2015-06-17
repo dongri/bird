@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Bird</title>
+  <link rel="stylesheet" href="./stylesheets/style.css"/>
+  <script src="./javascripts/jquery-2.1.1.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./javascripts/jquery.easing-1.3.min.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./javascripts/jquery.vgrid.min.js" type="text/javascript" type="text/javascript" charset="UTF-8"></script>
+</head>
+<body>
+<h1>鳥</h1>
+<div id="grid-content">
+  <div>
+    <h3>Origami</h3>
+    <img src="http://static.origami.co/img/tumblr/origami-logo-blog.png" class="logo">
+  </div>
+  <div>
+    <h3>Swift</h3>
+    <img src="https://developer.apple.com/swift/images/swift-og.png" class="logo">
+  </div>
+  <div>
+    <h3>Twitter</h3>
+    <img src="https://g.twimg.com/Twitter_logo_blue.png" class="logo">
+  </div>
+  <div>
+    <h3>Fluentd</h3>
+    <img src="https://raw.githubusercontent.com/fluent/website/master/logos/fluentd.png" class="logo">
+  </div>
+</div>
+
+<script type="text/javascript">
+  $(function(){
+    $("#grid-content").vgrid({
+      easing: "easeOutQuint",
+      time: 400,
+      delay: 20,
+      fadeIn: {
+        time: 500,
+        delay: 50,
+        wait: 500
+      }
+    });
+  });
+</script>
+</body>
+</html>

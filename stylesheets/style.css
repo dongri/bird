@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Courier New',Courier,monospace;
+}
+
+body {
+  background: #FFF;
+  font: 13px sans-serif;
+  margin: 10px;
+  color: black;
+}
+
+body{
+  text-align: center;
+}
+
+#grid-content {
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+  height: 0;
+  max-width: 1000px !important;
+}
+
+#grid-content div {
+  width: 200px;
+  border: 1px solid #DDDDDD;
+  background-color: #EFEFEF;
+  color: #888;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
