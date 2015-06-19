@@ -16,26 +16,33 @@ body{
   text-align: center;
 }
 
+h1 {
+  margin: 40px;
+  font-size: 80px;
+}
 #grid-content {
   margin: 0 auto;
   text-align: left;
   overflow: hidden;
   height: 0;
-  max-width: 1000px !important;
+  /*max-width: 1000px !important;*/
 }
 
-#grid-content div {
-  width: 200px;
-  border: 1px solid #DDDDDD;
-  background-color: #EFEFEF;
-  color: #888;
+#grid-content > div {
+  width: 320px;
+  height: 320px;
+  /*border: 1px solid #DDDDDD;*/
   margin: 5px;
-  padding: 10px;
-  border-radius: 10px;
-  height: 200px;
+  text-align: center;
+  display: table;
+}
+
+.logo-image{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
